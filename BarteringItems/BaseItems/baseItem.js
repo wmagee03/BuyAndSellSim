@@ -5,8 +5,7 @@ export default class BaseItem {
 
   constructor(value) {
     this.name = 'Base';
-    this.details = '';
-    this.defaultValue = 0;
+    this.defaultValue = -1;
     this.percentChangeFromPrevious = '0%';
     this.value = value;
   }
