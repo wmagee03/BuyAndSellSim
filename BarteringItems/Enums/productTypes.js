@@ -1,0 +1,15 @@
+// Pseudo enums for declaring product types
+
+const BaseProductType = {
+  PLANT_PRODUCE: 'ORGANIC_PRODUCE',
+  ANIMAL_PRODUCE: 'ANIMAL_PRODUCE',
+  CONSTRUCTION_MATERIAL: 'CONSTRUCTION_MATERIAL',
+  COOKING_MATERIAL: 'COOKING_MATERIAL',
+  ENERGY: 'ENERGY',
+  MINERAL: 'MINERAL',
+  LIQUID: 'LIQUID',
+  SPECIAL: 'SPECIAL'
+};
+
+
+export default BaseProductType;
